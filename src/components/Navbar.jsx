@@ -13,7 +13,7 @@ const Navbar = () => {
   const navLink = `transition-colors duration-300 hover:text-rose-500`;
 
   return (
-    <nav className="bg-[#fffaf0] shadow-sm sticky top-0 z-50 backdrop-blur-xl border-b border-neutral-200 bg-gradient-to-r from-blue-200 to-white-500 ">
+    <nav style={{fontFamily:"Noto serif"}} className="bg-[#fffaf0] shadow-sm sticky top-0 z-50 backdrop-blur-xl border-b border-neutral-200 bg-gradient-to-r from-blue-200 to-white-500 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link

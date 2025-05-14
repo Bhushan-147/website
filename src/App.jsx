@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./pages/Footer";
@@ -18,6 +19,7 @@ import Company from './pages/collaborate/Company';
 import DualFeatureSection from "./components/DualFeatureSection";
 import '@fontsource/poppins'; // Default weight 400
 import '@fontsource/poppins/600.css'; // Optional weights
+
 
 // import  CollaborateParent  from './pages/collaborate/CollaborateParent';
 

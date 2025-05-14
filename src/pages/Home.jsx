@@ -8,7 +8,7 @@ const Home = () => {
       <FullscreenSlider />
 
       {/* Hero Section */}
-      <section className="bg-green-100 py-16 px-4 text-center">
+      <section className="bg-green-200 py-16 px-4 text-center">
         {/* <h1 className="text-4xl font-bold mb-4">Welcome to Agri & Food Tech</h1> */}
         <h1 className="text-4xl font-bold mb-4">Welcome to Chahat World</h1>
         <p className="text-lg max-w-2xl mx-auto">
